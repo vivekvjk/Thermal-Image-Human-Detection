@@ -1,0 +1,3 @@
+# Thermal-Image-Human-Detection
+
+An application that allows you to input live camera feed or a pre-recorded thermal image video and the machine learning algorithm will detect thehumans in it. This technology would be useful if deployed on drones during search and rescue missions (especially natural disasters), in which its difficult to see humans unless you use thermal cameras. Performs better than an out of the box object detection algorithm with no training on this target domain.
