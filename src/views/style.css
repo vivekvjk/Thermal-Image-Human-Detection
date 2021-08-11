@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      background-size: cover;
+      font-size: 15px;
+      font-family: 'Sintony', sans-serif;
+
+    }
+/* split*/
+.top, .bottom{
+  position:fixed;
+  left:0;
+  right:0;
+  height:50%;
+}
+.top{
+  top:0;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+}
+.bottom{
+  bottom:0;
+  background-color: white;
+}
+
+.mission{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+	width:600px;
+	height:auto;
+	background: rgba(220,220,220,0.3);
+	padding:40px, 50px;
+	border-radius: 12px;
+	padding-bottom: 20px;
+	margin-top:20px;
+
+}
+
+
+/* columns*/
+
+.column {
+  float: left;
+  width: 50%;
+	background-color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* */
+
+
+    .wrapper {
+      position: absolute;
+
+
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .form {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      background: rgba(220, 220, 220, 0.3);
+      padding: 40px, 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 12px;
+      padding-bottom: 20px;
+      padding-top:20px;
+    }
+
+
+
+    .input-fields {
+      padding: 0 30px;
+
+    }
+    .input-fields .items .label {
+      display: block;
+      font-size: 1em;
+      color: white;
+      /* text-transform: capitalize; */
+      padding-top:30px;
+      padding-bottom:10px;
+      font-weight: 600;
+
+    }
+
+    .button {
+      margin: 0 30px;
+      background: #0b2b47;
+      color: #F1F7EE;
+      font-size: 1em;
+      padding: 10px 0;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      letter-spacing: 2.5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+
+  /* quote    */
+  blockquote{
+  	font-size: 15px;
+  	width:100%;
+  	font-family: 'Sintony', sans-serif;
+  	font-style:italic;
+  	color: white;
+  	padding:1em 0px 1em 50px;
+  	border-left:5px solid#e1eae1 ;
+  	line-height:1.6;
+  	position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  blockquote::before{
+  	font-family: 'Sintony', sans-serif;
+  	content: "\201C";
+  	color:#e1eae1;
+  	font-size:4em;
+  	position: absolute;
+  	left:10px;
+  	top:-10px;
+  }
+  blockquote::after{
+  	content: '';
+  }
+  blockquote span{
+  	display:block;
+  	color:#333333;
+  	font-style: normal;
+  	font-weight: bold;
+  	margin-top:50px;
+  }

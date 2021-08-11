@@ -1,0 +1,4 @@
+/object_detection/models
+node_modules
+.DS_Store
+.eslintrc.js
